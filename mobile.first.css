@@ -1,0 +1,155 @@
+
+
+body{
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    
+    text-align: center;
+    margin: auto 0;
+    color: #505050;
+    background-color: #F5F5F5;
+    width: 100%;
+}
+h1{
+    margin-top: 0px;
+    padding-top: 15px;
+}
+.nav{
+    border: solid #F5F5F5 1px; 
+    color:#505050;
+    background-color: white;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 5px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    
+}
+.profile-img{
+    border: solid #f5f5f5;
+    text-align: center;
+    width: 75%;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.about{
+    line-height: 28px;
+}
+.about p{
+    margin-top: 0px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #909090;
+    font-size: 17px;
+    font-weight: lighter;
+}
+.portfolio{
+    display: block;
+    color: #505050;
+    text-align: center;
+    margin: auto 0;
+    
+
+}
+.portfolio h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.portfolio h3{
+    font-size: 24px;
+    font-weight: lighter;
+    margin-top: 28px;
+    margin-bottom: 15px;
+}
+.portfolio p{
+    margin-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 28px;
+    color: #505050;
+    font-size: 17px;
+    font-weight: lighter;
+}
+.portfolio img{
+    display: block;
+    border: solid white;
+    width: 90%;
+    margin-top: 2px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact{
+    text-align: center;
+    margin: auto 0;
+    color: #505050;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    background-color: #F5F5F5;
+    width: 100%;
+}
+.contact h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.contact p{
+    margin-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 11px;
+    padding-right: 11px;
+    line-height: 28px;
+    color: #888888;
+    font-size: 16px;
+    font-weight: lighter;
+    
+}
+.phone-email p{
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 11px;
+    padding-right: 11px;
+    line-height: 28px;
+    color: #888888;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.link{
+    margin-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 28px;
+    color: #505050;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+footer p{
+    display:inline-block;
+    text-align: center;
+    color: #505050;
+    font-weight: bold;
+    width: 49%;
+}
+footer a{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #505050;
+    font-weight: bold;
+    width: 49%;
+}
+  
