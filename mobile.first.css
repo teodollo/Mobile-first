@@ -63,6 +63,7 @@ nav{
 .portfolio{
     display: block;
     border: solid white 0px;
+    border-bottom: solid lightgray 1px;
     color: #505050;
     text-align: center;
     margin: auto 0;
@@ -100,6 +101,29 @@ nav{
     margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
+}
+.skills{
+    display: block;
+    border: solid white 0px;
+    color: #505050;
+    text-align: center;
+    margin: auto 0;
+    margin-top: 60px;
+}
+.skills img{
+    display: block;
+    border: solid white;
+    width: 75%;
+    margin-top: 2px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.html{
+    color:orangered;
+}
+.css{
+    color:deepskyblue;
 }
 .contact{
     font-family: 'Nanum Gothic', sans-serif;
@@ -205,6 +229,10 @@ footer a:hover{
         display:inline-block;
         width:48%;
     }
+    .skills-img{
+        display:inline-block;
+        width: 40%
+    }
     .contact p{
         padding-left: 120px;
         padding-right: 120px;
@@ -226,7 +254,7 @@ footer a:hover{
         float: left;
     }
     .footer-nav{
-    display: inline-block;    
+    display: inline-block;   
     text-align: center;
     text-decoration: none;
     color: #505050;
@@ -250,7 +278,7 @@ footer a:hover{
         margin-right: 30vw;
     }
     .nav{
-        width: 11%;
+        width: 9%;
         text-align: right;
         display: inline-block;
         margin-right: 0px;
