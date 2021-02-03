@@ -63,7 +63,7 @@ nav{
 .portfolio{
     display: block;
     border: solid white 0px;
-    border-bottom: solid lightgray 1px;
+    border-bottom: dotted lightgray 2px;
     color: #505050;
     text-align: center;
     margin: auto 0;
@@ -77,28 +77,29 @@ nav{
     margin-bottom: 50px;
 }
 .portfolio h3{
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: lighter;
-    margin-top: 28px;
-    margin-bottom: 15px;
+    margin-top: 1.75em;
+    margin-bottom: 0.9375em;
 }
 .portfolio p{
     font-family: 'Nanum Gothic', sans-serif;
     margin-top: 0px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    line-height: 28px;
+    padding-bottom: 1.250em;
+    padding-left: 1.250em;
+    padding-right: 1.250em;
+    line-height: 1.75em;
     color: #505050;
-    font-size: 17px;
+    font-size: 1.0625em;
     font-weight: lighter;
+    
 }
 .portfolio img{
     display: block;
     border: solid white;
     width: 90%;
-    margin-top: 2px;
-    margin-bottom: 15px;
+    margin-top: 0.125em;
+    margin-bottom: 0.9375em;
     margin-left: auto;
     margin-right: auto;
 }
@@ -113,7 +114,7 @@ nav{
 .skills img{
     display: block;
     border: solid white;
-    width: 75%;
+    width: 65%;
     margin-top: 2px;
     margin-bottom: 15px;
     margin-left: auto;
@@ -225,13 +226,19 @@ footer a:hover{
         font-size: 20px;
         padding-left: 30px;
     }
+    .portfolio p{
+        min-width: 327.094px;
+        max-width: 351.094px ;
+    }
     .column{
         display:inline-block;
-        width:48%;
+        width:48vw;
+       
     }
     .skills-img{
         display:inline-block;
-        width: 40%
+        width: 40%;
+        
     }
     .contact p{
         padding-left: 120px;
@@ -295,8 +302,13 @@ footer a:hover{
         margin-top: 24px;
         text-align: left;
     }
+    .portfolio p{
+        min-width: 244.5px;
+        max-width: 264.938px;
+    }
     .column{
         display:inline-block;
-        width:29%;
+        width:28vw;
+        
     }
 }
